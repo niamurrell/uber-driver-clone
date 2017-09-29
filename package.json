@@ -1,0 +1,21 @@
+{
+  "name": "uber-driver-clone",
+  "version": "1.0.0",
+  "description": "Uber clone for just the drivers",
+  "main": "index.js",
+  "repository": "https://github.com/niamurrell/uber-driver-clone.git",
+  "scripts": {
+    "test": "NODE_ENV=test nodemon --exec mocha --recursive -R min"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.5",
+    "mongoose": "^4.11.13",
+    "supertest": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.3"
+  }
+}
